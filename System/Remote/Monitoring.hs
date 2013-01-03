@@ -45,7 +45,11 @@ import Prelude hiding (read)
 
 import System.Remote.Common
 
+#ifdef USE_SNAP
 import System.Remote.Snap
+#else
+import System.Remote.WebServer
+#endif
 
 -- $configuration
 --

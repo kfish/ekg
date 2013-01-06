@@ -16,7 +16,7 @@ import qualified Data.Map as Map
 import Data.Maybe (listToMaybe)
 import qualified Data.Text as T
 import qualified Data.Text.Encoding as T
-import Paths_ekg (getDataDir)
+import Paths_ekg_webserver (getDataDir)
 import Prelude hiding (read)
 import Snap.Core (MonadSnap, Request, Snap, finishWith, getHeaders, getRequest,
                   getResponse, method, Method(GET), modifyResponse, pass, route,
